@@ -1,28 +1,40 @@
-name: Recruitment Website
 favicon: null
-layout_spectrum: 0.738077198388055
-typography_spectrum: 0.9351507925894111
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Recruitment Website
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.4557416713796556
+  brandStrength: 0.2044179898221046
+  rhythmicContrast: 0.7393733349163085
   brandColors:
     - '#17BEBB'
     - '#2E282A'
     - '#CD5334'
     - '#EDB88B'
     - '#FAD8D6'
-  brandStrength: 0.20441798982210457
   lightness: 0.3850747891701758
-  saturation: 0.4557416713796556
-  rhythmicContrast: 0.7393733349163085
-purpose: []
+typography_spectrum: 0.9351507925894111
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
